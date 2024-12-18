@@ -1,4 +1,9 @@
 //  Print each digits of a given number in a new line
+// Input -> 123
+// Output-> 1
+//          2
+//          3
+
 const printDigits = (n) => {
   // 1. Calculate total count
   let pow = Math.pow(10, digitCount(n));

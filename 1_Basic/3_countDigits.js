@@ -1,4 +1,6 @@
 // Count digits of a given number
+// Input -> 12345
+// Output-> 5
 const countDigits = (n) => {
   count = 0;
   while (n > 0) {

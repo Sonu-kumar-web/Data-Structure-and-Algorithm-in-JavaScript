@@ -1,4 +1,6 @@
 // Write a program to reverse a number;
+// Input -> 12345
+// Output-> 54321
 const reverseANumber = (n) => {
   let revNum = 0;
   let temp = Math.pow(10, countDigit(n));
