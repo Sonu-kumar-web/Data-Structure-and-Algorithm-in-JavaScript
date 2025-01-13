@@ -1,4 +1,4 @@
-//  Write a program to convert  Any BaseDecimal to Decimal.
+//  Write a program to convert  Any Base to Decimal.
 
 const convertAnyBaseToDecimal = (num, base) => {
   let count = 0,

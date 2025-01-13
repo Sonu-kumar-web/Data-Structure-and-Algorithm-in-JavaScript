@@ -1,5 +1,5 @@
 // Write a program to convert from decimal to any base.
-const decimalToAnyBase = (decimalNum, base) => {
+const convertDecimalToAnyBase = (decimalNum, base) => {
   let count = 0,
     newNumber = 0;
   while (decimalNum > 0) {
@@ -11,5 +11,5 @@ const decimalToAnyBase = (decimalNum, base) => {
   return newNumber;
 };
 
-console.log(decimalToAnyBase(784, 8)); // 1375
-console.log(decimalToAnyBase(765, 2)); // 1011111101
+console.log(convertDecimalToAnyBase(784, 8)); // 1375
+console.log(convertDecimalToAnyBase(765, 2)); // 1011111101
